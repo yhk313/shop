@@ -9,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class CustInsertTests {
 	@Autowired
-	CustService custService;
+	CustService custService;//
 
 	@Test
 	void contextLoads() {
